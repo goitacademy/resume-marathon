@@ -1,94 +1,42 @@
-* {
-    margin: 0;
-    padding: 0;
+.my-element {
+    color: #b3c5d4;
+}
+
+.soft-skill-container {
+    background: sandybrown;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.tech-skill-container {
+    background: tomato;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.contacts-container {
+    background: #1e2939;
+    width: 400px;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
-    padding: 40px;
+.tech-skill-title {
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.background {
-    background-color: #ffffff;
+.tech-skill-item {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-container {
     display: flex;
-    flex-direction: row;
-    width: 1280px;
-    margin: 0 auto;
-}
-
-.profession-name {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-}
-
-.my-name {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 89px;
-}
-
-.sidebar {
-    width: 370px;
-    height: 1000px;
-    background-color: #1e2939;
-}
-
-.my-info {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #b9b9b9;
-}
-
-.main-info {
-    width: calc(100% - 370px);
-    padding-top: 110px;
-    padding-bottom: 110px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.my-photo {
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 5px;
-}
-
-.sidebar-info-title {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 20px;
-}
-
-.sidebar-info-block {
-    margin-left: 40px;
-    margin-top: 55px;
-}
-
-.contacts-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #3d4652;
-}
-
-.contacts-info {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    margin-right: 10px;
-}
-
-.sidebar-info-skill {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #e2e3e5;
-    margin-left: 15px;
+    flex-direction: column;
 }
