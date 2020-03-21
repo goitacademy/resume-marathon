@@ -1,94 +1,211 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-}
+} 
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f5f7fa;
-    padding: 40px;
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Montserrat;
 }
 
-.background {
-    background-color: #ffffff;
+.wrapper {
+    background: #fff;
     display: flex;
-    flex-direction: row;
-    width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
-}
-
-.profession-name {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-}
-
-.my-name {
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 89px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
+    background: #1e2939;
     width: 370px;
-    height: 1000px;
-    background-color: #1e2939;
-}
-
-.my-info {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #b9b9b9;
-}
-
-.main-info {
-    width: calc(100% - 370px);
-    padding-top: 110px;
-    padding-bottom: 110px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .my-photo {
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 5px;
+    width: 370px;
 }
 
-.sidebar-info-title {
+.about-me-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contacts-container {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
     color: #fff;
+    margin-bottom: 20px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #434c5a;
+}
+
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.tech-skills-title {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 20px;
+    color: #fff;
 }
 
-.sidebar-info-block {
+.tech-skills-container {
     margin-left: 40px;
+    margin-right: 40px;
     margin-top: 55px;
 }
 
-.contacts-text {
+.tech-skills-item {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #3d4652;
+    margin-left: 15px;
+    color: #ff6b08;
 }
 
-.contacts-info {
-    color: #fff;
+.tech-skills-text {
+    color: #d8dadd;
+}
+
+.profession {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-right: 10px;
+    margin-bottom: 23px;
 }
 
-.sidebar-info-skill {
+.name {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.description {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #e2e3e5;
-    margin-left: 15px;
+    margin-top: 24px;
+}
+
+.info-container {
+    margin-bottom: 65px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.projects-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tech-name {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dots {
+    color: #bebebe;
+    font-weight: 100;
+}
+
+.projects-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+
+.projest-container {
+    margin-bottom: 55px;
+}
+
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.profession-company {
+    color: #ff7011;
+}
+
+.profession-time {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profession-divider {
+    color: #000;
+}
+
+.profession-duties {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.profession-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.education-container {
+    margin-top: 55px;
+}
+
+.univ-name {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.univ-speciality {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.education-title {
+    margin-bottom: 15px;
 }
